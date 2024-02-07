@@ -1,0 +1,15 @@
+import javax.swing.JOptionPane;
+    public class Addition 
+    {
+        public static void main( String[] args)
+        {
+            String firstNumber = JOptionPane.showInputDialog("Digite o número :");
+            String secondNumber = JOptionPane.showInputDialog("Digite outro número: ");
+            
+            int number1 = Integer.parseInt(firstNumber);
+            int number2 = Integer.parseInt(secondNumber);
+            int sum = number1 + number2;
+            
+            System.out.print("A soma é"+sum+" dos numeros"+firstNumber+"e"+secondNumber);
+        }
+}
